@@ -8,7 +8,7 @@
 [![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter)](https://twitter.com/log)
 -->
 [![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
-[![ReadTheDocs](https://readthedocs.org/projects/log/badge/?version=latest)](https://fruafr.log.readthedocs.io/en/stable/)
+[![ReadTheDocs](https://readthedocs.org/projects/log/badge/?version=latest)](https://fruafrlog.readthedocs.io/en/stable/)
 [![PyPI-Server](https://img.shields.io/pypi/v/log.svg)](https://pypi.org/project/fruafr.log/)
 
 # python-fruafr-log
