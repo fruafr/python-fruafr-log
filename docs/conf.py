@@ -105,7 +105,7 @@ source_suffix = [".rst", ".md"]
 master_doc = "index"
 
 # General information about the project.
-project = "log"
+project = "fruafr.log"
 copyright = "2023, David HEURTEVENT"
 
 # The version info for the project you're documenting, acts as replacement for
