@@ -1,0 +1,150 @@
+---
+# List of options from the Python standard logging library
+asctime:
+    short_option: -ASC
+    long_option: --asctime
+    dest: asctime
+    help: Human-readable time when the LogRecord was created. By default this is \
+      of the form '2003-07-08 16:49:45,896'
+    default:
+created:
+    short_option: -CRE
+    long_option: --created
+    dest: 'created'
+    help: Time when the LogRecord was created (as returned by time.time()).
+    default:
+filename:
+    short_option: -FIL
+    long_option: --filename
+    dest: filename
+    help: Filename portion of pathname.
+    default:
+funcname:
+    short_option: -FUN
+    long_option: --funcname
+    dest: funcname
+    help: Name of function containing the logging call.
+    default:
+levelname:
+    short_option: -LEVNA
+    long_option: --levelname
+    dest: levelname
+    help: Text logging level for the message (DEBUG, INFO, WARNING, ERROR, CRITICAL).
+    default:
+levelno:
+    short_option: -LEVNO
+    long_option: --levelno
+    dest: levelno
+    help: Numeric logging level for the message (DEBUG, INFO, WARNING, ERROR, CRITICAL).
+    default:
+lineno:
+    short_option: -LINENO
+    long_option: --lineno
+    dest: lineno
+    help: Source line number where the logging call was issued (if available).
+    default:
+module:
+    short_option: -MOD
+    long_option: --module
+    dest: module
+    help: Module (name portion of filename).
+    default:
+msecs:
+    short_option: -MSE
+    long_option: --msecs
+    dest: msec
+    help: Millisecond portion of the time when the LogRecord was created.
+    default:
+name:
+    short_option: -NAM
+    long_option: --name
+    dest: name
+    help: Name of the logger used to log the call.
+    default: 
+pathname:
+    short_option: -PAT
+    long_option: --path
+    dest: path
+    help: Full pathname of the source file where the logging call \
+        was issued (if available).
+    default:
+process:
+    short_option: -PRO
+    long_option: --process
+    dest: process
+    help: Process ID (if available).
+    default:
+processname:
+    short_option: -PRN
+    long_option: --processname
+    dest: processname
+    help: Process name (if available).
+    default:
+relativecreated:
+    short_option: -REL
+    long_option: --relativecreated
+    dest: relativecreated
+    help: Time in milliseconds when the LogRecord was created, relative to the \
+        time the logging module was loaded.
+    default:
+thread:
+    short_option: -THR
+    long_option: --thread
+    dest: thread
+    help: Thread ID (if available).
+    default:
+threadname:
+    short_option: -THN'
+    long_option: --threadname'
+    dest: 'threadname'
+    help: 'Thread name (if available).'
+    default:
+taskname:
+    short_option: -TAS
+    long_option: --taskname
+    dest: taskname
+    help: asyncio.Task name (if available).
+    default:
+#custom parameters
+app:
+    short_option: -A
+    long_option: --app
+    dest: 'app'
+    help: 'Name of the app that generated the record'
+    default:
+user:
+    short_option: -U
+    long_option: --user
+    dest: 'user'
+    help: 'Name of the user that generated the record'
+    default:
+host:
+    short_option: -H
+    long_option: --host
+    dest: host
+    help: Name of the host that generated the record
+    default:
+ip:
+    short_option: -i
+    long_option: --ip
+    dest: ip
+    help: IP that generated the record
+    default:
+interface:
+    short_option: -I
+    long_option: --interface
+    dest: interface
+    help: interface that generated the record
+    default:
+clientlevel:
+    short_option: -CL
+    long_option: --clientlevel
+    dest: clientlevel
+    help: Name of the client level that generated the record
+    default:
+service:
+    short_option: -S
+    long_option: --service
+    dest: service
+    help: Name of the service that generated the record
+    default:

@@ -1,0 +1,81 @@
+---
+# Options from Python standard logging library
+# 'args': None, #You shouldn’t need to format this yourself. The tuple of 
+# arguments merged into msg to produce message, or a dict whose values are
+# used for the merge (when there is only one argument, and it is a dictionary).
+asctime:
+  format:  '%(asctime)s'
+  description: Human-readable time when the LogRecord was created. By default\
+   this is of the form '2003-07-08 16:49:45,896' (the numbers after the comma are \
+    millisecond portion of the time).
+created:
+  format: '%(created)f'
+  description: Time when the LogRecord was created (as returned by \
+      time.time()).
+# 'exc_info': None,
+# You shouldn’t need to format this yourself.
+# Exception tuple (à la sys.exc_info) or, if no exception has occurred, None.
+filename:
+    format: '%(filename)s'
+    description: Filename portion of pathname.
+funcName:
+    format: '%(funcName)s'
+    description: Name of function containing the logging call.
+levelname:
+    format: '%(levelname)s'
+    description: Text logging level for the message (DEBUG, INFO, WARNING,\
+     ERROR, CRITICAL).
+levelno:
+    format: '%(levelno)s'
+    description: Numeric logging level for the message (DEBUG, INFO, WARNING,\
+        ERROR, CRITICAL).
+lineno:
+    format: '%(lineno)d'
+    description: Source line number where the logging call was issued \
+        (if available).
+message:
+    format: '%(message)s'
+    description: The logged message, computed as msg % args. This is set \
+        when Formatter.format() is invoked.
+module:
+    format: '%(module)s'
+    description: 'Module (name portion of filename).'
+msecs:
+    format: '%(msecs)d'
+    description: Millisecond portion of the time when the LogRecord \
+        was created.
+# 'msg': None, #You shouldn’t need to format this yourself.
+# The format string passed in the original logging call. Merged with args \
+# to produce message, or an arbitrary object (see Using arbitrary objects \
+# as messages).
+name:
+    format: '%(name)s'
+    description: 'Name of the logger used to log the call.'
+pathname:
+    format: '%(pathname)s'
+    description: Full pathname of the source file where the logging call \
+        was issued (if available).
+process:
+    format: '%(process)d'
+    description: Process ID (if available).
+processName:
+    format: '%(processName)s'
+    description: Process name (if available).
+relativeCreated:
+    format: '%(relativeCreated)d'
+    description: Time in milliseconds when the LogRecord was created, relative \
+        to the time the logging module was loaded.
+# 'stack_info': None,
+# You shouldn’t need to format this yourself.
+# Stack frame information (where available) from the bottom of the stack in the \
+# current thread, up to and including the stack frame of the logging call which \
+# resulted in the creation of this record.
+thread:
+    format: '%(thread)d'
+    description: Thread ID (if available).
+threadName:
+    format: '%(threadName)s'
+    description: 'Thread name (if available).'
+taskName:
+    format: '%(taskName)s'
+    description: 'asyncio.Task name (if available).'
