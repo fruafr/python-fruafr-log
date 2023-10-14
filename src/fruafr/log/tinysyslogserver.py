@@ -1,13 +1,6 @@
 #!/usr/bin/env python
 # pylint: disable=line-too-long
 """
-# Copyright 2023 by David Heurtevent.
-# SPDX_LICENSE: MIT
-# License: MIT License
-# Author: David HEURTEVENT <david@heurtevent.org>
-# Copyright 2023 by David Heurtevent.
-# SPDX_LICENSE: MIT
-# License: MIT License
 Tiny Syslog Server in Python.
 
 This is a tiny syslog server that is able to receive syslog messages via both UDP and TCP.
@@ -21,6 +14,11 @@ Originally inspired by:
 - by: https://stackoverflow.com/questions/61633410/how-do-i-accept-tcp-and-udp
     (for UDP and TCP threading)
 """
+# Copyright 2023 by David Heurtevent.
+# SPDX_LICENSE: MIT
+# License: MIT License
+# Author: David HEURTEVENT <david@heurtevent.org>
+
 import logging
 import argparse
 import socketserver

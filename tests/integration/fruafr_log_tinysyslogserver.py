@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
+# pylint: disable=line-too-long
+# pylint: disable=protected-access
 """
-# Copyright 2023 by David Heurtevent.
-# SPDX_LICENSE: MIT
-# License: MIT License
-# Author: David HEURTEVENT <david@heurtevent.org>
-
 Test of fruafr.log.tinysyslogserver
 
 Must be run with sudo privileges
@@ -12,6 +9,11 @@ Must be run with sudo privileges
 `sudo python3 ../python-fruafr-log/tests/test_fruafr_log_tinysyslogserver.py`
 
 """
+# Copyright 2023 by David Heurtevent.
+# SPDX_LICENSE: MIT
+# License: MIT License
+# Author: David HEURTEVENT <david@heurtevent.org>
+
 import unittest
 import os
 import subprocess

@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
+# pylint: disable=line-too-long
+# pylint: disable=protected-access
+"""
+Test of fruafr.log.lib.formatter
 """
 # Copyright 2023 by David Heurtevent.
 # SPDX_LICENSE: MIT
 # License: MIT License
 # Author: David HEURTEVENT <david@heurtevent.org>
-
-Test of fruafr.log.lib.formatter
-"""
 
 import unittest
 from fruafr.log.lib import formatter

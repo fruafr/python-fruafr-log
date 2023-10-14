@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 # pylint: disable=line-too-long
 """
-# Copyright 2023 by David Heurtevent.
-# SPDX_LICENSE: MIT
-# License: MIT License
-# Author: David HEURTEVENT <david@heurtevent.org>
-
 CLI - Save a log message to a log file
 
 No output is written to the console by default (otherwise, use verbose)
 
 """
+# Copyright 2023 by David Heurtevent.
+# SPDX_LICENSE: MIT
+# License: MIT License
+# Author: David HEURTEVENT <david@heurtevent.org>
+
 import argparse
 import logging
 import sys

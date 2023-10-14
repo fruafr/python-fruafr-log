@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
+# pylint: disable=line-too-long
+# pylint: disable=protected-access
 """
-# Copyright 2023 by David Heurtevent.
-# SPDX_LICENSE: MIT
-# License: MIT License
-# Author: David HEURTEVENT <david@heurtevent.org>
-
 Integration tests of fruafr.log syslog server (tinysyslog) and client (logtosyslog)
 
 1) Ensure that the server is up and running. It must run in both tcp and udp modes:
@@ -26,6 +23,11 @@ The script will verify that the messages have been logged in the server log file
 `rm /tmp/fruafr-log-syslog-server-test.txt'`
 
 """
+# Copyright 2023 by David Heurtevent.
+# SPDX_LICENSE: MIT
+# License: MIT License
+# Author: David HEURTEVENT <david@heurtevent.org>
+
 import unittest
 import uuid
 

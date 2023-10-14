@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 # pylint: disable=line-too-long
 """
-# Copyright 2023 by David Heurtevent.
-# SPDX_LICENSE: MIT
-# License: MIT License
-# Author: David HEURTEVENT <david@heurtevent.org>
-
 CLI - Print a log message in the console
 
 Can use: python3 logtoconsole.py [message] -L [level] &>> /tmp/log.log
  to append it to the log file (/tmp/log.log is an example)
 """
+# Copyright 2023 by David Heurtevent.
+# SPDX_LICENSE: MIT
+# License: MIT License
+# Author: David HEURTEVENT <david@heurtevent.org>
+
 import argparse
 import logging
 import sys

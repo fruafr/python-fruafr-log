@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
+# pylint: disable=line-too-long
+# pylint: disable=protected-access
 """
-# Copyright 2023 by David Heurtevent.
-# SPDX_LICENSE: MIT
-# License: MIT License
-# Author: David HEURTEVENT <david@heurtevent.org>
-
 Test of fruafr.log.logtosyslog
 
 Tests the CLI without requiring to launch the syslog server.
@@ -13,6 +10,11 @@ Most tests require the verbose and dryrun flags to be set.
 The UDP/TCP connection is not tested in this test suite
 
 """
+# Copyright 2023 by David Heurtevent.
+# SPDX_LICENSE: MIT
+# License: MIT License
+# Author: David HEURTEVENT <david@heurtevent.org>
+
 import unittest
 import os
 import subprocess
