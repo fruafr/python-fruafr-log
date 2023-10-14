@@ -20,7 +20,7 @@ It provides :
 - a CLI to log messages via syslog (via UDP or TCP): [logtosyslog.py](/src/fruafr/log/logtosyslog.py)
 
 It also provides :
-- a tiny UDP/TCP syslog server capable of saving incoming messages to a file: [tinysyslogserver.py](/src/fruafr/log/tinysyslogserver.py)`.
+- a tiny UDP/TCP syslog server capable of saving incoming messages to a file: [tinysyslogserver.py](/src/fruafr/log/tinysyslogserver.py).
 - formatter.LoggerClass, a class expanding the standard [logging.logger](https://docs.python.org/3/library/logging.html#logger-objects) : [/lib/logger.py](/src/fruafr/log/lib/logger.py)
 - formatter.FormatterClass, a class expanding the standard [logging.formatter](https://docs.python.org/3/library/logging.html#formatter-objects) : [/lib/formatter.py](/src/fruafr/log/lib/formatter.py)
 

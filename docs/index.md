@@ -8,7 +8,7 @@ It provides :
 - a CLI to log messages via syslog (via UDP or TCP): [logtosyslog.py]
 
 It also provides :
-- a tiny UDP/TCP syslog server capable of saving incoming messages to a file: [tinysyslogserver.py]`.
+- a tiny UDP/TCP syslog server capable of saving incoming messages to a file: [tinysyslogserver.py].
 - formatter.LoggerClass, a class expanding the standard [logging.logger] : [/lib/logger.py]
 - formatter.FormatterClass, a class expanding the standard [logging.formatter] : [/lib/formatter.py]
 
