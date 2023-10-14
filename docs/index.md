@@ -44,4 +44,4 @@ Module Reference <api/modules>
 [Sphinx]: http://www.sphinx-doc.org/
 [Markdown]: https://daringfireball.net/projects/markdown/
 <!-- [reStructuredText]: http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html -->
-<!-- [MyST]: https://myst-parser.readthedocs.io/en/latest/ -->
+[MyST]: https://myst-parser.readthedocs.io/en/latest/
