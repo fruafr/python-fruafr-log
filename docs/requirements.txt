@@ -3,6 +3,6 @@
 # under `install_requires` in `setup.cfg` is also listed here!
 # sphinx_rtd_theme
 m2r
-myst-parser[linkify]
+myst-parser
 sphinx>=3.2.1
 sphinx_rtd_theme
