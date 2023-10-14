@@ -1,6 +1,6 @@
 
 # python-fruafr-log
-> fruafr.log contains basic Python 3 logging utilities (CLI)
+> The `fruafr.log` package contains basic Python 3 logging utilities (CLI)
 
 It provides :
 - a CLI to log messages to the console : [logtoconsole.py]
