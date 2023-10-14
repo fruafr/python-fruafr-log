@@ -64,7 +64,7 @@ e.g. `logtofile.py --help`
 ## Tests
 [Unit tests](/tests) are available for all modules. It uses the Python unittest suite.
 
-In addition, the UDP/TCP syslog client/server integration has been tested with an integration test found in [`tests/test_fruafr_log_syslog_client_server.py`](tests/test_fruafr_log_syslog_client_server.py).
+In addition, the UDP/TCP syslog client/server integration has been tested with an integration test found in [`tests/integration/fruafr_log_syslog_client_server.py`](tests/integration/fruafr_log_syslog_client_server.py).
 
 ### Bugs reporting
 [Github Issues' page of the repository](https://github.com/fruafr/python-fruafr-log/issues)
