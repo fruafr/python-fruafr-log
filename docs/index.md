@@ -3,14 +3,14 @@
 > fruafr.log contains basic Python 3 logging utilities (CLI)
 
 It provides :
-- a CLI to log messages to the console : [logtoconsole.py](/src/fruafr/log/logtoconsole.py)
-- a CLI to log messages to a file: [logtofile.py](/src/fruafr/log/logtofile.py)
-- a CLI to log messages via syslog (via UDP or TCP): [logtosyslog.py](/src/fruafr/log/logtosyslog.py)
+- a CLI to log messages to the console : [logtoconsole.py]
+- a CLI to log messages to a file: [logtofile.py]
+- a CLI to log messages via syslog (via UDP or TCP): [logtosyslog.py]
 
 It also provides :
-- a tiny UDP/TCP syslog server capable of saving incoming messages to a file: [tinysyslogserver.py](/src/fruafr/log/tinysyslogserver.py)`.
-- formatter.LoggerClass, a class expanding the standard [logging.logger](https://docs.python.org/3/library/logging.html#logger-objects) : [/lib/logger.py](/src/fruafr/log/lib/logger.py)
-- formatter.FormatterClass, a class expanding the standard [logging.formatter](https://docs.python.org/3/library/logging.html#formatter-objects) : [/lib/formatter.py](/src/fruafr/log/lib/formatter.py)
+- a tiny UDP/TCP syslog server capable of saving incoming messages to a file: [tinysyslogserver.py]`.
+- formatter.LoggerClass, a class expanding the standard [logging.logger] : [/lib/logger.py]
+- formatter.FormatterClass, a class expanding the standard [logging.formatter] : [/lib/formatter.py]
 
 ## How to install
 
@@ -43,3 +43,11 @@ Module Reference <api/modules>
 [Markdown]: https://daringfireball.net/projects/markdown/
 <!-- [reStructuredText]: http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html -->
 [MyST]: https://myst-parser.readthedocs.io/en/latest/
+[logtoconsole.py]: https://github.com/fruafr/python-fruafr-log/blob/main/src/fruafr/log/logtoconsole.py
+[logtofile.py]: https://github.com/fruafr/python-fruafr-log/blob/main/src/fruafr/log/logtofile.py
+[logtosyslog.py]: https://github.com/fruafr/python-fruafr-log/blob/main/src/fruafr/log/logtosyslog.py
+[tinysyslogserver.py]: https://github.com/fruafr/python-fruafr-log/blob/main/src/fruafr/log/tinysyslogserver.py
+[logging.logger]: https://docs.python.org/3/library/logging.html#logger-objects
+[/lib/logger.py]: https://github.com/fruafr/python-fruafr-log/blob/main/src/fruafr/log/lib/logger.py
+[logging.formatter]: https://docs.python.org/3/library/logging.html#formatter-objects
+[/lib/formatter.py]: https://github.com/fruafr/python-fruafr-log/blob/main/src/fruafr/log/lib/formatter.py
