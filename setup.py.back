@@ -1,0 +1,31 @@
+    python_requires='>=3.10, <4',
+    install_requires=[
+        # https://stackoverflow.com/questions/14399534
+        #'matplotlib>=3',
+        ],
+    extras_require={
+        # eg:
+        #   'rst': ['docutils>=0.11'],
+        #   ':python_version=="2.6"': ['argparse'],
+        },
+    setup_requires=[
+        #   'pytest-runner',
+        #   'setuptools_scm>=3.3.1',
+        ],
+    entry_points={
+        #'console_scripts': [
+        #    'samplecli1= sampleproject.cli_int1:main',
+        #    ]
+        #
+        },
+    # cmdclass={'build_ext': optional_build_ext},
+    # ext_modules=[
+    #    Extension(
+    #        splitext(relpath(path, 'src').replace(os.sep, '.'))[0],
+    #        sources=[path],
+    #        include_dirs=[dirname(path)]
+    #    )
+    #    for root, _, _ in os.walk('src')
+    #    for path in glob(join(root, '*.c'))
+    # ],
+    )

@@ -1,14 +1,25 @@
-# python-fruafr-log
-fruafr.log contain basic Python 3 logging utilities (CLI)
+<!-- These are examples of badges you might want to add to your README:
+     please update the URLs accordingly
 
-The focus is to log messages with a Python script (CLI).
+[![Built Status](https://api.cirrus-ci.com/github/<USER>/log.svg?branch=main)](https://cirrus-ci.com/github/<USER>/log)
+[![Coveralls](https://img.shields.io/coveralls/github/<USER>/log/main.svg)](https://coveralls.io/r/<USER>/log)
+[![Conda-Forge](https://img.shields.io/conda/vn/conda-forge/log.svg)](https://anaconda.org/conda-forge/log)
+[![Monthly Downloads](https://pepy.tech/badge/log/month)](https://pepy.tech/project/log)
+[![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter)](https://twitter.com/log)
+-->
+[![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
+[![ReadTheDocs](https://readthedocs.org/projects/log/badge/?version=latest)](https://fruafr.log.readthedocs.io/en/stable/)
+[![PyPI-Server](https://img.shields.io/pypi/v/log.svg)](https://pypi.org/project/fruafr.log/)
+
+# python-fruafr-log
+> fruafr.log contains basic Python 3 logging utilities (CLI)
+
+The focus is to log messages with a Python script (CLI). The CLIs mostly expand/implement the standard python library [logging facility](https://docs.python.org/3/library/logging.html]), but log messages are emitted in a separate process (PID) rather than as a separate thread in your application. Thus, if favors decoupling.
 
 It provides :
-- a CLI to log messages to console : [logtoconsole.py](/src/fruafr/log/logtoconsole.py)
+- a CLI to log messages to the console : [logtoconsole.py](/src/fruafr/log/logtoconsole.py)
 - a CLI to log messages to a file: [logtofile.py](/src/fruafr/log/logtofile.py)
 - a CLI to log messages via syslog (via UDP or TCP): [logtosyslog.py](/src/fruafr/log/logtosyslog.py)
-
-CLIs mostly expand/implement the standard python library [logging facility](https://docs.python.org/3/library/logging.html]), but log messages are emitted in a separate process (PID) rather than as a separate thread in your application. As such, if favors decoupling.
 
 It also provides :
 - a tiny UDP/TCP syslog server capable of saving incoming messages to a file: [tinysyslogserver.py](/src/fruafr/log/tinysyslogserver.py)`.
@@ -27,7 +38,7 @@ To use the tiny syslog server, you will need to install the package with sudo pe
 
 Invoke the help command of each CLI with the `-h` or `--help` option.
 
-e.g. `src\fruafr\log\logtofile.py --help`
+e.g. `logtofile.py --help`
 
 ## Implementation details
 
@@ -61,8 +72,12 @@ In addition, the UDP/TCP syslog client/server integration has been tested with a
 
 ## License
 [MIT licensed](LICENSE.md).
-In short: Free. Do whatever you want with this library as long as you include the license notice and the copyright in the copies.
+In short : You are free to incorporate the library and/or its CLI in your open-source or proprietary projects. Do whatever you want with this library as long as you include the license notice and the copyright in the copies.
 
 ## Author
 [David HEURTEVENT](https://github.com/dheurtev)
 
+<!-- pyscaffold-notes -->
+
+## Note
+This project has been set up using PyScaffold 4.4. For details and usage information on PyScaffold see https://pyscaffold.org/.
