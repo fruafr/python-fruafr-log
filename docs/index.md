@@ -2,8 +2,6 @@
 # python-fruafr-log
 > fruafr.log contains basic Python 3 logging utilities (CLI)
 
-The focus is to log messages with a Python script (CLI). The CLIs mostly expand/implement the standard python library [logging facility](https://docs.python.org/3/library/logging.html]), but log messages are emitted in a separate process (PID) rather than as a separate thread in your application. Thus, if favors decoupling.
-
 It provides :
 - a CLI to log messages to the console : [logtoconsole.py](/src/fruafr/log/logtoconsole.py)
 - a CLI to log messages to a file: [logtofile.py](/src/fruafr/log/logtofile.py)
@@ -11,8 +9,8 @@ It provides :
 
 It also provides :
 - a tiny UDP/TCP syslog server capable of saving incoming messages to a file: [tinysyslogserver.py](/src/fruafr/log/tinysyslogserver.py)`.
-- formatter.LoggerClass, a class expanding the standard [logging.logger]() : [/lib/logger.py](/src/fruafr/log/lib/logger.py)
-- formatter.FormatterClass, a class expanding the standard [logging.formatter]() : [/lib/formatter.py](/src/fruafr/log/lib/formatter.py)
+- formatter.LoggerClass, a class expanding the standard [logging.logger](https://docs.python.org/3/library/logging.html#logger-objects) : [/lib/logger.py](/src/fruafr/log/lib/logger.py)
+- formatter.FormatterClass, a class expanding the standard [logging.formatter](https://docs.python.org/3/library/logging.html#formatter-objects) : [/lib/formatter.py](/src/fruafr/log/lib/formatter.py)
 
 ## How to install
 

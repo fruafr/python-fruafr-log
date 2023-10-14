@@ -21,15 +21,17 @@ It provides :
 
 It also provides :
 - a tiny UDP/TCP syslog server capable of saving incoming messages to a file: [tinysyslogserver.py](/src/fruafr/log/tinysyslogserver.py)`.
-- formatter.LoggerClass, a class expanding the standard [logging.logger]() : [/lib/logger.py](/src/fruafr/log/lib/logger.py)
-- formatter.FormatterClass, a class expanding the standard [logging.formatter]() : [/lib/formatter.py](/src/fruafr/log/lib/formatter.py)
+- formatter.LoggerClass, a class expanding the standard [logging.logger](https://docs.python.org/3/library/logging.html#logger-objects) : [/lib/logger.py](/src/fruafr/log/lib/logger.py)
+- formatter.FormatterClass, a class expanding the standard [logging.formatter](https://docs.python.org/3/library/logging.html#formatter-objects) : [/lib/formatter.py](/src/fruafr/log/lib/formatter.py)
 
 ## How to install
 
 To use the CLI:
+
 `pip install fruafr.log`
 
 To use the tiny syslog server, you will need to install the package with sudo permissions:
+
 `sudo pip install fruafr.log`
 
 ## How to use
@@ -58,19 +60,19 @@ e.g. `logtofile.py --help`
 - **Should only be used for testing purposes**.
 - It was developed to test logtosyslog.py.
 - The server can listen on a single port to both UDP (`--udp` flag) and TCP (`--tcp` flag) sockets. It uses two processes (one for UDP and one for TCP).
-- It could be
 
 ## Tests
 [Unit tests](/tests) are available for all modules. It uses the Python unittest suite.
 
-In addition, the UDP/TCP syslog client/server integration has been tested with an integration test found in [`tests/test_fruafr_log_syslog_client_server.py`](/tests/test_fruafr_log_syslog_client_server.py).
+In addition, the UDP/TCP syslog client/server integration has been tested with an integration test found in [`tests/test_fruafr_log_syslog_client_server.py`](tests/test_fruafr_log_syslog_client_server.py).
 
 ### Bugs reporting
 [Github Issues' page of the repository](https://github.com/fruafr/python-fruafr-log/issues)
 
 ## License
-[MIT licensed](LICENSE.md).
-In short : You are free to incorporate the library and/or its CLI in your open-source or proprietary projects. Do whatever you want with this library as long as you include the license notice and the copyright in the copies.
+- [MIT licensed](LICENSE.txt).
+- In short : You are free to incorporate the library and/or its CLI in your open-source or proprietary projects.
+- Do whatever you want with this library as long as you include the license notice and the copyright in the copies.
 
 ## Author
 [David HEURTEVENT](https://github.com/dheurtev)
