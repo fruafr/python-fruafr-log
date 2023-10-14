@@ -159,6 +159,8 @@ cover/*
 .idea
 .vscode
 tags
+.vscode/*
+.vscode/settings.json
 
 # Per-project virtualenvs
 .venv*/
