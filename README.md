@@ -45,7 +45,7 @@ e.g. `logtofile.py --help`
 - Python 3 only (Tested on Python 3.10).
 
 ### Requirements
-- Only requires the Python standard library.
+- Requires the Python standard library and YAML.
 
 ### CLI - Good to know
 - The documentation of the CLI is available with the `-h` or `-help` flags.

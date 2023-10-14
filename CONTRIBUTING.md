@@ -77,7 +77,7 @@ The focus is to log messages with a Python script (CLI). The CLIs mostly expand/
 - Python 3 only (Tested on Python 3.10).
 
 ### Requirements
-- Only requires the Python standard library.
+- Requires the Python standard library and YAML.
 
 ### Submit an issue
 

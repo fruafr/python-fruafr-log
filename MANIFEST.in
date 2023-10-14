@@ -1,0 +1,10 @@
+include *.txt
+include requirements.txt
+include *.yaml
+include *.yml
+include src/fruafr/log/lib/*.yaml
+include src/fruafr/log/lib/*.yml
+include src/fruafr/log/*.yaml
+include src/fruafr/log/*.yml
+
+
