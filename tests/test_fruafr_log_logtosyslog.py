@@ -460,7 +460,7 @@ class TestLogToSysLog(unittest.TestCase):
         self.assertIn(";", stderr)
         self.assertIn("test1;127.0.0.1", stderr)
         # test with long option
-        p = self._execute(['test1', '--options', 'message,ip'
+        p = self._execute(['test1', '--options', 'message,ip',
                            '--ip', '127.0.0.1','--optsep', ';',
                            '--verbose', '--dryrun'])
         stdout = p.stdout
@@ -471,16 +471,6 @@ class TestLogToSysLog(unittest.TestCase):
         self.assertIn("test1", stderr)
         self.assertIn(";", stderr)
         self.assertIn("test1;127.0.0.1", stderr)
-
-
-
-
-
-
-
-
-
-
 
 
 def main():

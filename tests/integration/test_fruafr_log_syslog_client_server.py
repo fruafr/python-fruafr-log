@@ -29,8 +29,8 @@ The script will verify that the messages have been logged in the server log file
 import unittest
 import uuid
 
-import test_fruafr_log_logtosyslog as test_client
-import test_fruafr_log_logtofile as logtofile
+from .. import test_fruafr_log_logtosyslog as test_client
+from .. import test_fruafr_log_logtofile as logtofile
 
 INTERPRETER = 'python3'
 SYSLOG_SERVER_LOG_FILE='/tmp/fruafr-log-syslog-server-test.txt'

@@ -190,10 +190,10 @@ class Console(logtoconsole.Console):
             options = self._determine_list_options_to_template(args)
         else:
             options = self._validate_list_options_to_template(args.options)
-        # prepate the variables
+        # prepare the variables
         if options is not None and options != []:
             variables = self._prepare_variables_to_render(args)
-            message= self._apply_template(options, variables, args.optsep)
+            message = self._apply_template(options, variables, args.optsep)
         else:
             message = args.message
         # determine the format
