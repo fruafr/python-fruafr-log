@@ -10,6 +10,7 @@
 [![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
 [![ReadTheDocs](https://readthedocs.org/projects/log/badge/?version=latest)](https://fruafrlog.readthedocs.io/en/stable/)
 [![PyPI-Server](https://img.shields.io/pypi/v/log.svg)](https://pypi.org/project/fruafr.log/)
+[![Code Climate](https://codeclimate.com/github/cloudfoundry/membrane.png)](https://codeclimate.com/github/fruafr/python-fruafr-log)
 
 # python-fruafr-log
 > The `fruafr.log` package contains basic Python 3 logging utilities (CLI)
